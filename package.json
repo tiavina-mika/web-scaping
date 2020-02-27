@@ -1,0 +1,34 @@
+{
+  "name": "xb_chatra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oallouch/xb_chatra.git"
+  },
+  "keywords": [],
+  "author": "tiavina-mika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oallouch/xb_chatra/issues"
+  },
+  "homepage": "https://github.com/oallouch/xb_chatra#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "mongoose": "^5.9.1",
+    "puppeteer": "^2.1.1",
+    "puppeteer-autoscroll-down": "^0.1.2",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-stealth": "^2.4.9"
+  }
+}
