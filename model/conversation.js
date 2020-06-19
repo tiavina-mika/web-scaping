@@ -6,7 +6,8 @@ const ConversationSchema = new Schema(
     {
         name: { type: String },
         conversationId: { type: String },
-        date: { type: String },
+        date: { timezone: String, title: String },
+        dateLatest: { type: String },
         client: { type: String },
         status: { type: String },
         messages: [{ type: Schema.Types.ObjectId, ref: 'Message' }],
