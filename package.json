@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node index.js",
-    "build": "babel-node index.js",
+    "serve": "babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,6 +33,6 @@
     "puppeteer-extra-plugin-stealth": "^2.4.9"
   },
   "engines": {
-    "node": "12.14.0"
+    "node": "12.x"
   }
 }
