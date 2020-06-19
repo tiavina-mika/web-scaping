@@ -4,7 +4,7 @@ import stealthPlugin from 'puppeteer-extra-plugin-stealth'
 export const launchPuppeteer = async () => {
     try {
         puppeteer.use(stealthPlugin())
-        const browser = await puppeteer.launch({ headless: false, defaultViewport: null, args:['--start-maximized'] })
+        const browser = await puppeteer.launch({ headless: false, defaultViewport: null, args:['--start-maximized','--no-sandbox', '--disable-setuid-sandbox'] })
         const page = await browser.newPage()
     
         await page.goto('https://app.chatra.io/chat/box:all')
