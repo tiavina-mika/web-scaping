@@ -11,10 +11,10 @@ export const launchPuppeteer = async () => {
         await page.waitFor(2000)
 
         await page.click('#signin-email')
-        await page.keyboard.type('chatra@lrn.me')
+        await page.keyboard.type('chatra@xxx.me')
 
         await page.click('#signin-password')
-        await page.keyboard.type('V0lpyR0ck$')
+        await page.keyboard.type('xxxxx$')
 
         await page.click('.test-button-signin-submit')
 
